@@ -1,0 +1,6 @@
+module system_resource_monitor
+typeinfo appsystem_resource_monitor.qmltypes
+prefer :/qt/qml/system_resource_monitor/
+Main 254.0 Main.qml
+depends QtQuick
+

@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/system_resource_monitor">
+    <file alias="qmldir">C:/Users/user/Documents/GitHub/system_resource_monitor/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/system_resource_monitor/qmldir</file>
+  </qresource>
+</RCC>
+

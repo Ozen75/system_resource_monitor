@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/system_resource_monitor/">
+    <file alias="Main.qml">C:/Users/user/Documents/GitHub/system_resource_monitor/Main.qml</file>
+  </qresource>
+</RCC>
+

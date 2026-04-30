@@ -1,0 +1,2 @@
+CMakeFiles/appsystem_resource_monitor.dir/appsystem_resource_monitor_autogen/mocs_compilation.cpp.obj: \
+ C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\appsystem_resource_monitor_autogen\mocs_compilation.cpp

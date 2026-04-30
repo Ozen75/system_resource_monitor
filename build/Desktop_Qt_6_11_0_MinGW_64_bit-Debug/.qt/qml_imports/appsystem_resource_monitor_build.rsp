@@ -1,0 +1,14 @@
+-rootPath
+C:/Users/user/Documents/GitHub/system_resource_monitor
+-cmake-output
+-output-file
+C:/Users/user/Documents/GitHub/system_resource_monitor/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/qml_imports/appsystem_resource_monitor_build.cmake
+-importPath
+C:/Users/user/Documents/GitHub/system_resource_monitor/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug
+-importPath
+C:/Users/user/Documents/GitHub/system_resource_monitor/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/system_resource_monitor
+-importPath
+C:/Qt/6.11.0/mingw_64/qml
+-qrcFiles
+C:/Users/user/Documents/GitHub/system_resource_monitor/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qmake_system_resource_monitor.qrc
+C:/Users/user/Documents/GitHub/system_resource_monitor/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/appsystem_resource_monitor_raw_qml_0.qrc

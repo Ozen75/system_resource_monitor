@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  ".qt/rcc/qrc_appsystem_resource_monitor_raw_qml_0.cpp"
+  ".qt/rcc/qrc_qmake_system_resource_monitor.cpp"
+  ".rcc/qmlcache/appsystem_resource_monitor_Main_qml.cpp"
+  ".rcc/qmlcache/appsystem_resource_monitor_Main_qml.cpp.aotstats"
+  ".rcc/qmlcache/appsystem_resource_monitor_qmlcache_loader.cpp"
+  "CMakeFiles/appsystem_resource_monitor_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/appsystem_resource_monitor_autogen.dir/ParseCache.txt"
+  "appsystem_resource_monitor_autogen"
+  "CMakeFiles/appsystem_resource_monitor.dir/appsystem_resource_monitor_autogen/mocs_compilation.cpp.obj"
+  "CMakeFiles/appsystem_resource_monitor.dir/appsystem_resource_monitor_autogen/mocs_compilation.cpp.obj.d"
+  "CMakeFiles/appsystem_resource_monitor.dir/appsystem_resource_monitor_qmltyperegistrations.cpp.obj"
+  "CMakeFiles/appsystem_resource_monitor.dir/appsystem_resource_monitor_qmltyperegistrations.cpp.obj.d"
+  "CMakeFiles/appsystem_resource_monitor.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appsystem_resource_monitor_raw_qml_0.cpp.obj"
+  "CMakeFiles/appsystem_resource_monitor.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appsystem_resource_monitor_raw_qml_0.cpp.obj.d"
+  "CMakeFiles/appsystem_resource_monitor.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_system_resource_monitor.cpp.obj"
+  "CMakeFiles/appsystem_resource_monitor.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_system_resource_monitor.cpp.obj.d"
+  "CMakeFiles/appsystem_resource_monitor.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appsystem_resource_monitor_Main_qml.cpp.obj"
+  "CMakeFiles/appsystem_resource_monitor.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appsystem_resource_monitor_Main_qml.cpp.obj.d"
+  "CMakeFiles/appsystem_resource_monitor.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appsystem_resource_monitor_qmlcache_loader.cpp.obj"
+  "CMakeFiles/appsystem_resource_monitor.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appsystem_resource_monitor_qmlcache_loader.cpp.obj.d"
+  "CMakeFiles/appsystem_resource_monitor.dir/main.cpp.obj"
+  "CMakeFiles/appsystem_resource_monitor.dir/main.cpp.obj.d"
+  "appsystem_resource_monitor.exe"
+  "appsystem_resource_monitor.exe.manifest"
+  "appsystem_resource_monitor.pdb"
+  "appsystem_resource_monitor_autogen/mocs_compilation.cpp"
+  "appsystem_resource_monitor_autogen/timestamp"
+  "appsystem_resource_monitor_qmltyperegistrations.cpp"
+  "libappsystem_resource_monitor.dll.a"
+  "meta_types/appsystem_resource_monitor_json_file_list.txt"
+  "meta_types/appsystem_resource_monitor_json_file_list.txt.timestamp"
+  "meta_types/qt6appsystem_resource_monitor_metatypes.json"
+  "meta_types/qt6appsystem_resource_monitor_metatypes.json.gen"
+  "system_resource_monitor/appsystem_resource_monitor.qmltypes"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/appsystem_resource_monitor.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
