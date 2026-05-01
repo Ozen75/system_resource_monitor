@@ -83,7 +83,6 @@ clean: CMakeFiles/dump_qml_context_properties.dir/clean
 clean: CMakeFiles/clean_qml_context_properties.dir/clean
 clean: CMakeFiles/appsystem_resource_monitor_copy_qml.dir/clean
 clean: CMakeFiles/appsystem_resource_monitor_copy_res.dir/clean
-clean: CMakeFiles/appsystem_resource_monitor_generate_qmlls_ini_file.dir/clean
 clean: CMakeFiles/generate_qmlls_build_ini_file.dir/clean
 clean: CMakeFiles/module_appsystem_resource_monitor_aotstats_target.dir/clean
 clean: CMakeFiles/all_aotstats.dir/clean
@@ -96,13 +95,12 @@ clean: CMakeFiles/appsystem_resource_monitor_autogen.dir/clean
 # Target rules for target CMakeFiles/appsystem_resource_monitor.dir
 
 # All Build rule for target.
-CMakeFiles/appsystem_resource_monitor.dir/all: CMakeFiles/appsystem_resource_monitor_copy_qml.dir/all
 CMakeFiles/appsystem_resource_monitor.dir/all: CMakeFiles/appsystem_resource_monitor_copy_res.dir/all
-CMakeFiles/appsystem_resource_monitor.dir/all: CMakeFiles/appsystem_resource_monitor_autogen.dir/all
-CMakeFiles/appsystem_resource_monitor.dir/all: CMakeFiles/appsystem_resource_monitor_autogen_timestamp_deps.dir/all
-CMakeFiles/appsystem_resource_monitor.dir/all: CMakeFiles/appsystem_resource_monitor_qmlimportscan.dir/all
-CMakeFiles/appsystem_resource_monitor.dir/all: CMakeFiles/appsystem_resource_monitor_generate_qmlls_ini_file.dir/all
 CMakeFiles/appsystem_resource_monitor.dir/all: CMakeFiles/generate_qmlls_build_ini_file.dir/all
+CMakeFiles/appsystem_resource_monitor.dir/all: CMakeFiles/appsystem_resource_monitor_qmlimportscan.dir/all
+CMakeFiles/appsystem_resource_monitor.dir/all: CMakeFiles/appsystem_resource_monitor_autogen_timestamp_deps.dir/all
+CMakeFiles/appsystem_resource_monitor.dir/all: CMakeFiles/appsystem_resource_monitor_autogen.dir/all
+CMakeFiles/appsystem_resource_monitor.dir/all: CMakeFiles/appsystem_resource_monitor_copy_qml.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\appsystem_resource_monitor.dir\build.make CMakeFiles/appsystem_resource_monitor.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\appsystem_resource_monitor.dir\build.make CMakeFiles/appsystem_resource_monitor.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18 "Built target appsystem_resource_monitor"
@@ -110,7 +108,7 @@ CMakeFiles/appsystem_resource_monitor.dir/all: CMakeFiles/generate_qmlls_build_i
 
 # Build rule for subdir invocation for target.
 CMakeFiles/appsystem_resource_monitor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles 22
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/appsystem_resource_monitor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles 0
 .PHONY : CMakeFiles/appsystem_resource_monitor.dir/rule
@@ -131,12 +129,12 @@ CMakeFiles/appsystem_resource_monitor.dir/clean:
 CMakeFiles/appsystem_resource_monitor_qmltyperegistration.dir/all: CMakeFiles/appsystem_resource_monitor_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\appsystem_resource_monitor_qmltyperegistration.dir\build.make CMakeFiles/appsystem_resource_monitor_qmltyperegistration.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\appsystem_resource_monitor_qmltyperegistration.dir\build.make CMakeFiles/appsystem_resource_monitor_qmltyperegistration.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=25,26,27,28,29 "Built target appsystem_resource_monitor_qmltyperegistration"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=23,24,25,26,27 "Built target appsystem_resource_monitor_qmltyperegistration"
 .PHONY : CMakeFiles/appsystem_resource_monitor_qmltyperegistration.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/appsystem_resource_monitor_qmltyperegistration.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/appsystem_resource_monitor_qmltyperegistration.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles 0
 .PHONY : CMakeFiles/appsystem_resource_monitor_qmltyperegistration.dir/rule
@@ -162,7 +160,7 @@ CMakeFiles/all_qmltyperegistrations.dir/all: CMakeFiles/appsystem_resource_monit
 
 # Build rule for subdir invocation for target.
 CMakeFiles/all_qmltyperegistrations.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/all_qmltyperegistrations.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles 0
 .PHONY : CMakeFiles/all_qmltyperegistrations.dir/rule
@@ -188,7 +186,7 @@ CMakeFiles/appsystem_resource_monitor_qmllint.dir/all: CMakeFiles/all_qmltypereg
 
 # Build rule for subdir invocation for target.
 CMakeFiles/appsystem_resource_monitor_qmllint.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/appsystem_resource_monitor_qmllint.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles 0
 .PHONY : CMakeFiles/appsystem_resource_monitor_qmllint.dir/rule
@@ -214,7 +212,7 @@ CMakeFiles/appsystem_resource_monitor_qmllint_json.dir/all: CMakeFiles/all_qmlty
 
 # Build rule for subdir invocation for target.
 CMakeFiles/appsystem_resource_monitor_qmllint_json.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/appsystem_resource_monitor_qmllint_json.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles 0
 .PHONY : CMakeFiles/appsystem_resource_monitor_qmllint_json.dir/rule
@@ -240,7 +238,7 @@ CMakeFiles/appsystem_resource_monitor_qmllint_module.dir/all: CMakeFiles/all_qml
 
 # Build rule for subdir invocation for target.
 CMakeFiles/appsystem_resource_monitor_qmllint_module.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/appsystem_resource_monitor_qmllint_module.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles 0
 .PHONY : CMakeFiles/appsystem_resource_monitor_qmllint_module.dir/rule
@@ -266,7 +264,7 @@ CMakeFiles/all_qmllint.dir/all: CMakeFiles/appsystem_resource_monitor_qmllint.di
 
 # Build rule for subdir invocation for target.
 CMakeFiles/all_qmllint.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/all_qmllint.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles 0
 .PHONY : CMakeFiles/all_qmllint.dir/rule
@@ -292,7 +290,7 @@ CMakeFiles/all_qmllint_json.dir/all: CMakeFiles/appsystem_resource_monitor_qmlli
 
 # Build rule for subdir invocation for target.
 CMakeFiles/all_qmllint_json.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/all_qmllint_json.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles 0
 .PHONY : CMakeFiles/all_qmllint_json.dir/rule
@@ -318,7 +316,7 @@ CMakeFiles/all_qmllint_module.dir/all: CMakeFiles/appsystem_resource_monitor_qml
 
 # Build rule for subdir invocation for target.
 CMakeFiles/all_qmllint_module.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/all_qmllint_module.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles 0
 .PHONY : CMakeFiles/all_qmllint_module.dir/rule
@@ -339,7 +337,7 @@ CMakeFiles/all_qmllint_module.dir/clean:
 CMakeFiles/dump_qml_context_properties.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\dump_qml_context_properties.dir\build.make CMakeFiles/dump_qml_context_properties.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\dump_qml_context_properties.dir\build.make CMakeFiles/dump_qml_context_properties.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=31 "Built target dump_qml_context_properties"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=29 "Built target dump_qml_context_properties"
 .PHONY : CMakeFiles/dump_qml_context_properties.dir/all
 
 # Build rule for subdir invocation for target.
@@ -365,7 +363,7 @@ CMakeFiles/dump_qml_context_properties.dir/clean:
 CMakeFiles/clean_qml_context_properties.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\clean_qml_context_properties.dir\build.make CMakeFiles/clean_qml_context_properties.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\clean_qml_context_properties.dir\build.make CMakeFiles/clean_qml_context_properties.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=30 "Built target clean_qml_context_properties"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=28 "Built target clean_qml_context_properties"
 .PHONY : CMakeFiles/clean_qml_context_properties.dir/all
 
 # Build rule for subdir invocation for target.
@@ -437,39 +435,13 @@ CMakeFiles/appsystem_resource_monitor_copy_res.dir/clean:
 .PHONY : CMakeFiles/appsystem_resource_monitor_copy_res.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/appsystem_resource_monitor_generate_qmlls_ini_file.dir
-
-# All Build rule for target.
-CMakeFiles/appsystem_resource_monitor_generate_qmlls_ini_file.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\appsystem_resource_monitor_generate_qmlls_ini_file.dir\build.make CMakeFiles/appsystem_resource_monitor_generate_qmlls_ini_file.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\appsystem_resource_monitor_generate_qmlls_ini_file.dir\build.make CMakeFiles/appsystem_resource_monitor_generate_qmlls_ini_file.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=22,23 "Built target appsystem_resource_monitor_generate_qmlls_ini_file"
-.PHONY : CMakeFiles/appsystem_resource_monitor_generate_qmlls_ini_file.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/appsystem_resource_monitor_generate_qmlls_ini_file.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/appsystem_resource_monitor_generate_qmlls_ini_file.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles 0
-.PHONY : CMakeFiles/appsystem_resource_monitor_generate_qmlls_ini_file.dir/rule
-
-# Convenience name for target.
-appsystem_resource_monitor_generate_qmlls_ini_file: CMakeFiles/appsystem_resource_monitor_generate_qmlls_ini_file.dir/rule
-.PHONY : appsystem_resource_monitor_generate_qmlls_ini_file
-
-# clean rule for target.
-CMakeFiles/appsystem_resource_monitor_generate_qmlls_ini_file.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\appsystem_resource_monitor_generate_qmlls_ini_file.dir\build.make CMakeFiles/appsystem_resource_monitor_generate_qmlls_ini_file.dir/clean
-.PHONY : CMakeFiles/appsystem_resource_monitor_generate_qmlls_ini_file.dir/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/generate_qmlls_build_ini_file.dir
 
 # All Build rule for target.
 CMakeFiles/generate_qmlls_build_ini_file.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\generate_qmlls_build_ini_file.dir\build.make CMakeFiles/generate_qmlls_build_ini_file.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\generate_qmlls_build_ini_file.dir\build.make CMakeFiles/generate_qmlls_build_ini_file.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=32 "Built target generate_qmlls_build_ini_file"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=30 "Built target generate_qmlls_build_ini_file"
 .PHONY : CMakeFiles/generate_qmlls_build_ini_file.dir/all
 
 # Build rule for subdir invocation for target.
@@ -496,12 +468,12 @@ CMakeFiles/module_appsystem_resource_monitor_aotstats_target.dir/all: CMakeFiles
 CMakeFiles/module_appsystem_resource_monitor_aotstats_target.dir/all: CMakeFiles/appsystem_resource_monitor_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\module_appsystem_resource_monitor_aotstats_target.dir\build.make CMakeFiles/module_appsystem_resource_monitor_aotstats_target.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\module_appsystem_resource_monitor_aotstats_target.dir\build.make CMakeFiles/module_appsystem_resource_monitor_aotstats_target.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=33,34 "Built target module_appsystem_resource_monitor_aotstats_target"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=31,32 "Built target module_appsystem_resource_monitor_aotstats_target"
 .PHONY : CMakeFiles/module_appsystem_resource_monitor_aotstats_target.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/module_appsystem_resource_monitor_aotstats_target.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/module_appsystem_resource_monitor_aotstats_target.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles 0
 .PHONY : CMakeFiles/module_appsystem_resource_monitor_aotstats_target.dir/rule
@@ -519,8 +491,8 @@ CMakeFiles/module_appsystem_resource_monitor_aotstats_target.dir/clean:
 # Target rules for target CMakeFiles/all_aotstats.dir
 
 # All Build rule for target.
-CMakeFiles/all_aotstats.dir/all: CMakeFiles/module_appsystem_resource_monitor_aotstats_target.dir/all
 CMakeFiles/all_aotstats.dir/all: CMakeFiles/appsystem_resource_monitor_autogen_timestamp_deps.dir/all
+CMakeFiles/all_aotstats.dir/all: CMakeFiles/module_appsystem_resource_monitor_aotstats_target.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\all_aotstats.dir\build.make CMakeFiles/all_aotstats.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\all_aotstats.dir\build.make CMakeFiles/all_aotstats.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=1 "Built target all_aotstats"
@@ -528,7 +500,7 @@ CMakeFiles/all_aotstats.dir/all: CMakeFiles/appsystem_resource_monitor_autogen_t
 
 # Build rule for subdir invocation for target.
 CMakeFiles/all_aotstats.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/all_aotstats.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles 0
 .PHONY : CMakeFiles/all_aotstats.dir/rule
@@ -549,7 +521,7 @@ CMakeFiles/all_aotstats.dir/clean:
 CMakeFiles/appsystem_resource_monitor_qmlimportscan.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\appsystem_resource_monitor_qmlimportscan.dir\build.make CMakeFiles/appsystem_resource_monitor_qmlimportscan.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\appsystem_resource_monitor_qmlimportscan.dir\build.make CMakeFiles/appsystem_resource_monitor_qmlimportscan.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=24 "Built target appsystem_resource_monitor_qmlimportscan"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=22 "Built target appsystem_resource_monitor_qmlimportscan"
 .PHONY : CMakeFiles/appsystem_resource_monitor_qmlimportscan.dir/all
 
 # Build rule for subdir invocation for target.
@@ -572,11 +544,10 @@ CMakeFiles/appsystem_resource_monitor_qmlimportscan.dir/clean:
 # Target rules for target CMakeFiles/appsystem_resource_monitor_autogen_timestamp_deps.dir
 
 # All Build rule for target.
-CMakeFiles/appsystem_resource_monitor_autogen_timestamp_deps.dir/all: CMakeFiles/appsystem_resource_monitor_copy_qml.dir/all
 CMakeFiles/appsystem_resource_monitor_autogen_timestamp_deps.dir/all: CMakeFiles/appsystem_resource_monitor_copy_res.dir/all
-CMakeFiles/appsystem_resource_monitor_autogen_timestamp_deps.dir/all: CMakeFiles/appsystem_resource_monitor_qmlimportscan.dir/all
-CMakeFiles/appsystem_resource_monitor_autogen_timestamp_deps.dir/all: CMakeFiles/appsystem_resource_monitor_generate_qmlls_ini_file.dir/all
 CMakeFiles/appsystem_resource_monitor_autogen_timestamp_deps.dir/all: CMakeFiles/generate_qmlls_build_ini_file.dir/all
+CMakeFiles/appsystem_resource_monitor_autogen_timestamp_deps.dir/all: CMakeFiles/appsystem_resource_monitor_qmlimportscan.dir/all
+CMakeFiles/appsystem_resource_monitor_autogen_timestamp_deps.dir/all: CMakeFiles/appsystem_resource_monitor_copy_qml.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\appsystem_resource_monitor_autogen_timestamp_deps.dir\build.make CMakeFiles/appsystem_resource_monitor_autogen_timestamp_deps.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\appsystem_resource_monitor_autogen_timestamp_deps.dir\build.make CMakeFiles/appsystem_resource_monitor_autogen_timestamp_deps.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num= "Built target appsystem_resource_monitor_autogen_timestamp_deps"
@@ -584,7 +555,7 @@ CMakeFiles/appsystem_resource_monitor_autogen_timestamp_deps.dir/all: CMakeFiles
 
 # Build rule for subdir invocation for target.
 CMakeFiles/appsystem_resource_monitor_autogen_timestamp_deps.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/appsystem_resource_monitor_autogen_timestamp_deps.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles 0
 .PHONY : CMakeFiles/appsystem_resource_monitor_autogen_timestamp_deps.dir/rule
@@ -610,7 +581,7 @@ CMakeFiles/appsystem_resource_monitor_autogen.dir/all: CMakeFiles/appsystem_reso
 
 # Build rule for subdir invocation for target.
 CMakeFiles/appsystem_resource_monitor_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/appsystem_resource_monitor_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles 0
 .PHONY : CMakeFiles/appsystem_resource_monitor_autogen.dir/rule

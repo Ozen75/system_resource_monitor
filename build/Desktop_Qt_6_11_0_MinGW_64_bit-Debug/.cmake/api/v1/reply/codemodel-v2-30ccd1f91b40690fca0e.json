@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-ad18c4839ed01f4a34ca.json",
+					"jsonFile" : "directory-.-Debug-648dee2bb1c9b1bac062.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -34,8 +34,7 @@
 						15,
 						16,
 						17,
-						18,
-						19
+						18
 					]
 				}
 			],
@@ -68,8 +67,7 @@
 						15,
 						16,
 						17,
-						18,
-						19
+						18
 					]
 				}
 			],
@@ -78,42 +76,42 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-all_aotstats-Debug-e5aeacc8cb81f5e5ce4e.json",
+					"jsonFile" : "target-all_aotstats-Debug-d376c9085b0b1aa5f4ee.json",
 					"name" : "all_aotstats",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-all_qmllint-Debug-15de051ffa5651f19772.json",
+					"jsonFile" : "target-all_qmllint-Debug-c5600913edbbcc107d4b.json",
 					"name" : "all_qmllint",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-all_qmllint_json-Debug-fe2fd63fb70a2101e418.json",
+					"jsonFile" : "target-all_qmllint_json-Debug-ea2bd77333329784e616.json",
 					"name" : "all_qmllint_json",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-all_qmllint_module-Debug-d5746b9d412c0e6524ab.json",
+					"jsonFile" : "target-all_qmllint_module-Debug-0729ab54be2a49458bda.json",
 					"name" : "all_qmllint_module",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-all_qmltyperegistrations-Debug-4c6304bb45c2718f2d31.json",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-47bef3cd678b88c966b6.json",
 					"name" : "all_qmltyperegistrations",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "appsystem_resource_monitor::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appsystem_resource_monitor-Debug-80b3167ae716eb4ff97d.json",
+					"jsonFile" : "target-appsystem_resource_monitor-Debug-cd1943e208657cd9383c.json",
 					"name" : "appsystem_resource_monitor",
 					"projectIndex" : 0
 				},
@@ -127,29 +125,22 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "appsystem_resource_monitor_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appsystem_resource_monitor_autogen_timestamp_deps-Debug-5019a85525464702355e.json",
+					"jsonFile" : "target-appsystem_resource_monitor_autogen_timestamp_deps-Debug-6c5886c05a31115120a9.json",
 					"name" : "appsystem_resource_monitor_autogen_timestamp_deps",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "appsystem_resource_monitor_copy_qml::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appsystem_resource_monitor_copy_qml-Debug-38b1bf85bcc4bd070ea9.json",
+					"jsonFile" : "target-appsystem_resource_monitor_copy_qml-Debug-33254e4e109ed5a18643.json",
 					"name" : "appsystem_resource_monitor_copy_qml",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "appsystem_resource_monitor_copy_res::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appsystem_resource_monitor_copy_res-Debug-ed5bd072d1e9f982fad3.json",
+					"jsonFile" : "target-appsystem_resource_monitor_copy_res-Debug-5f2ee8450e81cdb2c34c.json",
 					"name" : "appsystem_resource_monitor_copy_res",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "appsystem_resource_monitor_generate_qmlls_ini_file::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appsystem_resource_monitor_generate_qmlls_ini_file-Debug-cdfee1600ced4ca416f8.json",
-					"name" : "appsystem_resource_monitor_generate_qmlls_ini_file",
 					"projectIndex" : 0
 				},
 				{
@@ -162,42 +153,42 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "appsystem_resource_monitor_qmllint::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appsystem_resource_monitor_qmllint-Debug-188333b5c67e74c76220.json",
+					"jsonFile" : "target-appsystem_resource_monitor_qmllint-Debug-61f8a5b82ad012d4bbd4.json",
 					"name" : "appsystem_resource_monitor_qmllint",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "appsystem_resource_monitor_qmllint_json::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appsystem_resource_monitor_qmllint_json-Debug-34396a359d6877081964.json",
+					"jsonFile" : "target-appsystem_resource_monitor_qmllint_json-Debug-448ce5330d040b7fba10.json",
 					"name" : "appsystem_resource_monitor_qmllint_json",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "appsystem_resource_monitor_qmllint_module::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appsystem_resource_monitor_qmllint_module-Debug-ca276219828f3d37519c.json",
+					"jsonFile" : "target-appsystem_resource_monitor_qmllint_module-Debug-5dbc9e342fc8451b9790.json",
 					"name" : "appsystem_resource_monitor_qmllint_module",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "appsystem_resource_monitor_qmltyperegistration::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appsystem_resource_monitor_qmltyperegistration-Debug-3b2139e9cc0f1f2d873a.json",
+					"jsonFile" : "target-appsystem_resource_monitor_qmltyperegistration-Debug-a1e99efe0674afd02f96.json",
 					"name" : "appsystem_resource_monitor_qmltyperegistration",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "clean_qml_context_properties::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-clean_qml_context_properties-Debug-a53ede606562b3031f95.json",
+					"jsonFile" : "target-clean_qml_context_properties-Debug-c549c9d25193d907838c.json",
 					"name" : "clean_qml_context_properties",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "dump_qml_context_properties::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-dump_qml_context_properties-Debug-efe48048f1539fe2a52c.json",
+					"jsonFile" : "target-dump_qml_context_properties-Debug-3d53ae8505903ba819be.json",
 					"name" : "dump_qml_context_properties",
 					"projectIndex" : 0
 				},

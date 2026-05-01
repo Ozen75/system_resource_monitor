@@ -28,8 +28,6 @@
 			"qt_add_qml_module",
 			"add_dependencies",
 			"_qt_internal_qml_copy_files_to_build_dir",
-			"_populate_qmlls_ini_file",
-			"_qt_internal_write_deferred_qmlls_ini_file",
 			"_qt_internal_write_deferred_qmlls_build_ini_file",
 			"_qt_internal_scan_qml_imports",
 			"_qt_internal_generate_deploy_qml_imports_script",
@@ -73,7 +71,6 @@
 			"C:/Qt/6.11.0/mingw_64/lib/cmake/Qt6Network/Qt6NetworkTargets.cmake",
 			"C:/Qt/6.11.0/mingw_64/lib/cmake/Qt6Network/Qt6NetworkConfig.cmake",
 			"C:/Qt/6.11.0/mingw_64/lib/cmake/Qt6Qml/Qt6QmlDependencies.cmake",
-			"C:/Qt/6.11.0/mingw_64/lib/cmake/Qt6Qml/Qt6QmlMacros.cmake:1164:EVAL",
 			"C:/Qt/6.11.0/mingw_64/lib/cmake/Qt6Qml/Qt6QmlMacros.cmake:1179:EVAL",
 			"C:/Qt/6.11.0/mingw_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake:865:EVAL",
 			"build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qtcreator/cmake-helper/qtcreator-project.cmake"
@@ -86,7 +83,7 @@
 			{
 				"command" : 3,
 				"file" : 1,
-				"line" : 12,
+				"line" : 11,
 				"parent" : 0
 			},
 			{
@@ -110,19 +107,19 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 37,
+				"line" : 36,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 33,
+				"line" : 32,
 				"parent" : 0
 			},
 			{
 				"command" : 8,
 				"file" : 1,
-				"line" : 8,
+				"line" : 7,
 				"parent" : 0
 			},
 			{
@@ -208,7 +205,7 @@
 			{
 				"command" : 12,
 				"file" : 1,
-				"line" : 16,
+				"line" : 15,
 				"parent" : 0
 			},
 			{
@@ -431,22 +428,52 @@
 				"parent" : 0
 			},
 			{
-				"command" : 16,
+				"command" : 15,
 				"file" : 21,
 				"line" : 1,
 				"parent" : 63
 			},
 			{
-				"command" : 15,
+				"command" : 13,
 				"file" : 10,
-				"line" : 1498,
+				"line" : 1477,
 				"parent" : 64
+			},
+			{
+				"command" : 20,
+				"file" : 22,
+				"line" : 1,
+				"parent" : 63
+			},
+			{
+				"command" : 19,
+				"file" : 0,
+				"line" : 896,
+				"parent" : 66
+			},
+			{
+				"command" : 18,
+				"file" : 0,
+				"line" : 818,
+				"parent" : 67
+			},
+			{
+				"command" : 17,
+				"file" : 0,
+				"line" : 818,
+				"parent" : 68
+			},
+			{
+				"command" : 16,
+				"file" : 10,
+				"line" : 4921,
+				"parent" : 69
 			},
 			{
 				"command" : 13,
 				"file" : 10,
-				"line" : 1573,
-				"parent" : 65
+				"line" : 4696,
+				"parent" : 70
 			},
 			{
 				"command" : 14,
@@ -458,203 +485,155 @@
 				"command" : 13,
 				"file" : 10,
 				"line" : 3223,
-				"parent" : 67
-			},
-			{
-				"command" : 17,
-				"file" : 22,
-				"line" : 1,
-				"parent" : 63
-			},
-			{
-				"command" : 13,
-				"file" : 10,
-				"line" : 1477,
-				"parent" : 69
-			},
-			{
-				"command" : 22,
-				"file" : 23,
-				"line" : 1,
-				"parent" : 63
-			},
-			{
-				"command" : 21,
-				"file" : 0,
-				"line" : 896,
-				"parent" : 71
-			},
-			{
-				"command" : 20,
-				"file" : 0,
-				"line" : 818,
 				"parent" : 72
 			},
 			{
-				"command" : 19,
-				"file" : 0,
-				"line" : 818,
-				"parent" : 73
-			},
-			{
-				"command" : 18,
-				"file" : 10,
-				"line" : 4921,
-				"parent" : 74
-			},
-			{
-				"command" : 13,
-				"file" : 10,
-				"line" : 4696,
-				"parent" : 75
-			},
-			{
-				"command" : 24,
+				"command" : 22,
 				"file" : 1,
 				"line" : 3,
 				"parent" : 0
 			},
 			{
-				"file" : 24,
-				"parent" : 77
+				"file" : 23,
+				"parent" : 74
 			},
 			{
-				"command" : 23,
-				"file" : 24,
+				"command" : 21,
+				"file" : 23,
 				"line" : 81,
-				"parent" : 78
+				"parent" : 75
 			},
 			{
-				"command" : 26,
+				"command" : 24,
 				"file" : 10,
 				"line" : 910,
 				"parent" : 24
 			},
 			{
-				"command" : 25,
+				"command" : 23,
 				"file" : 10,
 				"line" : 4356,
+				"parent" : 77
+			},
+			{
+				"command" : 23,
+				"file" : 10,
+				"line" : 4386,
+				"parent" : 77
+			},
+			{
+				"command" : 26,
+				"file" : 10,
+				"line" : 4181,
+				"parent" : 77
+			},
+			{
+				"command" : 25,
+				"file" : 0,
+				"line" : 1609,
 				"parent" : 80
 			},
 			{
 				"command" : 25,
 				"file" : 10,
-				"line" : 4386,
-				"parent" : 80
-			},
-			{
-				"command" : 28,
-				"file" : 10,
-				"line" : 4181,
-				"parent" : 80
-			},
-			{
-				"command" : 27,
-				"file" : 0,
-				"line" : 1609,
-				"parent" : 83
-			},
-			{
-				"command" : 27,
-				"file" : 10,
 				"line" : 4347,
-				"parent" : 80
+				"parent" : 77
 			},
 			{
-				"command" : 29,
+				"command" : 27,
 				"file" : 10,
 				"line" : 4378,
-				"parent" : 80
+				"parent" : 77
 			},
 			{
-				"command" : 32,
+				"command" : 30,
 				"file" : 10,
 				"line" : 962,
 				"parent" : 24
 			},
 			{
-				"command" : 31,
+				"command" : 29,
 				"file" : 0,
 				"line" : 419,
-				"parent" : 87
+				"parent" : 84
 			},
 			{
-				"command" : 30,
+				"command" : 28,
 				"file" : 0,
 				"line" : 2655,
-				"parent" : 88
+				"parent" : 85
 			},
 			{
-				"command" : 27,
+				"command" : 25,
 				"file" : 0,
 				"line" : 2195,
-				"parent" : 89
+				"parent" : 86
 			},
 			{
-				"command" : 33,
+				"command" : 31,
 				"file" : 10,
 				"line" : 1035,
 				"parent" : 24
 			},
 			{
-				"command" : 27,
+				"command" : 25,
 				"file" : 10,
 				"line" : 3694,
-				"parent" : 91
-			},
-			{
-				"command" : 34,
-				"file" : 10,
-				"line" : 3831,
-				"parent" : 91
-			},
-			{
-				"command" : 27,
-				"file" : 10,
-				"line" : 1974,
-				"parent" : 93
-			},
-			{
-				"command" : 27,
-				"file" : 10,
-				"line" : 3887,
-				"parent" : 91
+				"parent" : 88
 			},
 			{
 				"command" : 32,
 				"file" : 10,
-				"line" : 3979,
-				"parent" : 91
+				"line" : 3831,
+				"parent" : 88
 			},
 			{
-				"command" : 31,
-				"file" : 0,
-				"line" : 419,
-				"parent" : 96
+				"command" : 25,
+				"file" : 10,
+				"line" : 1974,
+				"parent" : 90
+			},
+			{
+				"command" : 25,
+				"file" : 10,
+				"line" : 3887,
+				"parent" : 88
 			},
 			{
 				"command" : 30,
+				"file" : 10,
+				"line" : 3979,
+				"parent" : 88
+			},
+			{
+				"command" : 29,
+				"file" : 0,
+				"line" : 419,
+				"parent" : 93
+			},
+			{
+				"command" : 28,
 				"file" : 0,
 				"line" : 2655,
-				"parent" : 97
+				"parent" : 94
 			},
 			{
-				"command" : 27,
+				"command" : 25,
 				"file" : 0,
 				"line" : 2195,
-				"parent" : 98
+				"parent" : 95
 			},
 			{
-				"command" : 35,
+				"command" : 33,
 				"file" : 0,
 				"line" : 890,
-				"parent" : 71
+				"parent" : 66
 			},
 			{
-				"command" : 27,
+				"command" : 25,
 				"file" : 0,
 				"line" : 2320,
-				"parent" : 100
+				"parent" : 97
 			}
 		]
 	},
@@ -698,7 +677,7 @@
 					"define" : "QT_QMLINTEGRATION_LIB"
 				},
 				{
-					"backtrace" : 79,
+					"backtrace" : 76,
 					"define" : "QT_QML_DEBUG"
 				},
 				{
@@ -741,36 +720,36 @@
 					"path" : "C:/Users/user/Documents/GitHub/system_resource_monitor/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/appsystem_resource_monitor_autogen/include"
 				},
 				{
-					"backtrace" : 81,
+					"backtrace" : 78,
 					"path" : "C:/Users/user/Documents/GitHub/system_resource_monitor"
 				},
 				{
-					"backtrace" : 82,
+					"backtrace" : 79,
 					"isSystem" : true,
 					"path" : "C:/Qt/6.11.0/mingw_64/include/QtQml"
 				},
 				{
-					"backtrace" : 82,
+					"backtrace" : 79,
 					"isSystem" : true,
 					"path" : "C:/Qt/6.11.0/mingw_64/include"
 				},
 				{
-					"backtrace" : 82,
+					"backtrace" : 79,
 					"isSystem" : true,
 					"path" : "C:/Qt/6.11.0/mingw_64/include/QtCore"
 				},
 				{
-					"backtrace" : 82,
+					"backtrace" : 79,
 					"isSystem" : true,
 					"path" : "C:/Qt/6.11.0/mingw_64/mkspecs/win32-g++"
 				},
 				{
-					"backtrace" : 82,
+					"backtrace" : 79,
 					"isSystem" : true,
 					"path" : "C:/Qt/6.11.0/mingw_64/include/QtQmlIntegration"
 				},
 				{
-					"backtrace" : 82,
+					"backtrace" : 79,
 					"isSystem" : true,
 					"path" : "C:/Qt/6.11.0/mingw_64/include/QtNetwork"
 				},
@@ -808,7 +787,7 @@
 					"fragment" : "-g -fdiagnostics-color=always"
 				},
 				{
-					"backtrace" : 86,
+					"backtrace" : 83,
 					"fragment" : "-Wa,-mbig-obj"
 				}
 			],
@@ -843,7 +822,7 @@
 					"define" : "QT_QMLINTEGRATION_LIB"
 				},
 				{
-					"backtrace" : 79,
+					"backtrace" : 76,
 					"define" : "QT_QML_DEBUG"
 				},
 				{
@@ -886,36 +865,36 @@
 					"path" : "C:/Users/user/Documents/GitHub/system_resource_monitor/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/appsystem_resource_monitor_autogen/include"
 				},
 				{
-					"backtrace" : 81,
+					"backtrace" : 78,
 					"path" : "C:/Users/user/Documents/GitHub/system_resource_monitor"
 				},
 				{
-					"backtrace" : 82,
+					"backtrace" : 79,
 					"isSystem" : true,
 					"path" : "C:/Qt/6.11.0/mingw_64/include/QtQml"
 				},
 				{
-					"backtrace" : 82,
+					"backtrace" : 79,
 					"isSystem" : true,
 					"path" : "C:/Qt/6.11.0/mingw_64/include"
 				},
 				{
-					"backtrace" : 82,
+					"backtrace" : 79,
 					"isSystem" : true,
 					"path" : "C:/Qt/6.11.0/mingw_64/include/QtCore"
 				},
 				{
-					"backtrace" : 82,
+					"backtrace" : 79,
 					"isSystem" : true,
 					"path" : "C:/Qt/6.11.0/mingw_64/mkspecs/win32-g++"
 				},
 				{
-					"backtrace" : 82,
+					"backtrace" : 79,
 					"isSystem" : true,
 					"path" : "C:/Qt/6.11.0/mingw_64/include/QtQmlIntegration"
 				},
 				{
-					"backtrace" : 82,
+					"backtrace" : 79,
 					"isSystem" : true,
 					"path" : "C:/Qt/6.11.0/mingw_64/include/QtNetwork"
 				},
@@ -949,19 +928,11 @@
 			"id" : "appsystem_resource_monitor_copy_res::@6890427a1f51a3e7e1df"
 		},
 		{
-			"backtrace" : 66,
-			"id" : "appsystem_resource_monitor_generate_qmlls_ini_file::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 68,
-			"id" : "appsystem_resource_monitor_copy_qml::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 70,
+			"backtrace" : 65,
 			"id" : "generate_qmlls_build_ini_file::@6890427a1f51a3e7e1df"
 		},
 		{
-			"backtrace" : 76,
+			"backtrace" : 71,
 			"id" : "appsystem_resource_monitor_qmlimportscan::@6890427a1f51a3e7e1df"
 		},
 		{
@@ -970,6 +941,10 @@
 		{
 			"backtrace" : 0,
 			"id" : "appsystem_resource_monitor_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 73,
+			"id" : "appsystem_resource_monitor_copy_qml::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "appsystem_resource_monitor::@6890427a1f51a3e7e1df",
@@ -1169,65 +1144,65 @@
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 84,
+			"backtrace" : 81,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/meta_types/qt6appsystem_resource_monitor_metatypes.json.gen",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 85,
+			"backtrace" : 82,
 			"compileGroupIndex" : 1,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/appsystem_resource_monitor_qmltyperegistrations.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 90,
+			"backtrace" : 87,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_system_resource_monitor.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 92,
+			"backtrace" : 89,
 			"path" : "Main.qml",
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 94,
+			"backtrace" : 91,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appsystem_resource_monitor_qmlcache_loader.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 95,
+			"backtrace" : 92,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appsystem_resource_monitor_Main_qml.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 99,
+			"backtrace" : 96,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appsystem_resource_monitor_raw_qml_0.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 101,
+			"backtrace" : 98,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qmake_system_resource_monitor.qrc",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 101,
+			"backtrace" : 98,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/system_resource_monitor/qmldir",
 			"sourceGroupIndex" : 2
 		},
 		{
-			"backtrace" : 101,
+			"backtrace" : 98,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/appsystem_resource_monitor_raw_qml_0.qrc",
 			"sourceGroupIndex" : 0

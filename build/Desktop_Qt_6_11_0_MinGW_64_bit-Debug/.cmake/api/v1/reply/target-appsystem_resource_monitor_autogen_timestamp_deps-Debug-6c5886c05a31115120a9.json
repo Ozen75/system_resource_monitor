@@ -22,7 +22,7 @@
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 16,
+				"line" : 15,
 				"parent" : 0
 			},
 			{
@@ -65,19 +65,15 @@
 		},
 		{
 			"backtrace" : 0,
-			"id" : "appsystem_resource_monitor_generate_qmlls_ini_file::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 6,
-			"id" : "appsystem_resource_monitor_copy_qml::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 0,
 			"id" : "generate_qmlls_build_ini_file::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 0,
 			"id" : "appsystem_resource_monitor_qmlimportscan::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "appsystem_resource_monitor_copy_qml::@6890427a1f51a3e7e1df"
 		}
 	],
 	"folder" : 

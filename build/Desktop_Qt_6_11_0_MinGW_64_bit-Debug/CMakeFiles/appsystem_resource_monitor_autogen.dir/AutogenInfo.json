@@ -1123,15 +1123,7 @@
 	"CROSS_CONFIG" : false,
 	"DEP_FILE" : "C:/Users/user/Documents/GitHub/system_resource_monitor/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/appsystem_resource_monitor_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "appsystem_resource_monitor_autogen/timestamp",
-	"HEADERS" : 
-	[
-		[
-			"C:/Users/user/Documents/GitHub/system_resource_monitor/sysmonitor.h",
-			"MU",
-			"EWIEGA46WW/moc_sysmonitor.cpp",
-			null
-		]
-	],
+	"HEADERS" : [],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "C:/Users/user/Documents/GitHub/system_resource_monitor/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/appsystem_resource_monitor_autogen/include",
 	"MOC_COMPILATION_FILE" : "C:/Users/user/Documents/GitHub/system_resource_monitor/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/appsystem_resource_monitor_autogen/mocs_compilation.cpp",

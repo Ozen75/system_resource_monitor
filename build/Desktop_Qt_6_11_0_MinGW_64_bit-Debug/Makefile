@@ -330,19 +330,6 @@ appsystem_resource_monitor_copy_res/fast:
 .PHONY : appsystem_resource_monitor_copy_res/fast
 
 #=============================================================================
-# Target rules for targets named appsystem_resource_monitor_generate_qmlls_ini_file
-
-# Build rule for target.
-appsystem_resource_monitor_generate_qmlls_ini_file: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 appsystem_resource_monitor_generate_qmlls_ini_file
-.PHONY : appsystem_resource_monitor_generate_qmlls_ini_file
-
-# fast build rule for target.
-appsystem_resource_monitor_generate_qmlls_ini_file/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\appsystem_resource_monitor_generate_qmlls_ini_file.dir\build.make CMakeFiles/appsystem_resource_monitor_generate_qmlls_ini_file.dir/build
-.PHONY : appsystem_resource_monitor_generate_qmlls_ini_file/fast
-
-#=============================================================================
 # Target rules for targets named generate_qmlls_build_ini_file
 
 # Build rule for target.
@@ -609,7 +596,6 @@ help:
 	@echo ... appsystem_resource_monitor_autogen_timestamp_deps
 	@echo ... appsystem_resource_monitor_copy_qml
 	@echo ... appsystem_resource_monitor_copy_res
-	@echo ... appsystem_resource_monitor_generate_qmlls_ini_file
 	@echo ... appsystem_resource_monitor_qmlimportscan
 	@echo ... appsystem_resource_monitor_qmllint
 	@echo ... appsystem_resource_monitor_qmllint_json

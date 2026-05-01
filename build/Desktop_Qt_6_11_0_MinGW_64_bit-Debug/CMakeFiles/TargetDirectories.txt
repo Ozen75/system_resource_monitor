@@ -11,7 +11,6 @@ C:/Users/user/Documents/GitHub/system_resource_monitor/build/Desktop_Qt_6_11_0_M
 C:/Users/user/Documents/GitHub/system_resource_monitor/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/CMakeFiles/clean_qml_context_properties.dir
 C:/Users/user/Documents/GitHub/system_resource_monitor/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/CMakeFiles/appsystem_resource_monitor_copy_qml.dir
 C:/Users/user/Documents/GitHub/system_resource_monitor/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/CMakeFiles/appsystem_resource_monitor_copy_res.dir
-C:/Users/user/Documents/GitHub/system_resource_monitor/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/CMakeFiles/appsystem_resource_monitor_generate_qmlls_ini_file.dir
 C:/Users/user/Documents/GitHub/system_resource_monitor/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/CMakeFiles/generate_qmlls_build_ini_file.dir
 C:/Users/user/Documents/GitHub/system_resource_monitor/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/CMakeFiles/module_appsystem_resource_monitor_aotstats_target.dir
 C:/Users/user/Documents/GitHub/system_resource_monitor/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/CMakeFiles/all_aotstats.dir
