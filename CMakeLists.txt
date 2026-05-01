@@ -16,6 +16,8 @@ qt_add_qml_module(appsystem_resource_monitor
     URI system_resource_monitor
     QML_FILES
         Main.qml
+        SOURCES sysmonitor.h
+        SOURCES sysmonitor.cpp
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

@@ -21,6 +21,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/appsystem_resource_monitor.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appsystem_resource_monitor_qmlcache_loader.cpp.obj.d"
   "CMakeFiles/appsystem_resource_monitor.dir/main.cpp.obj"
   "CMakeFiles/appsystem_resource_monitor.dir/main.cpp.obj.d"
+  "CMakeFiles/appsystem_resource_monitor.dir/sysmonitor.cpp.obj"
+  "CMakeFiles/appsystem_resource_monitor.dir/sysmonitor.cpp.obj.d"
   "appsystem_resource_monitor.exe"
   "appsystem_resource_monitor.exe.manifest"
   "appsystem_resource_monitor.pdb"

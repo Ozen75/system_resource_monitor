@@ -399,4 +399,10 @@ CMakeFiles/appsystem_resource_monitor.dir/main.cpp.obj: \
  C:/Qt/6.11.0/mingw_64/include/QtQml/qqmlregistration.h \
  C:/Qt/6.11.0/mingw_64/include/QtQmlIntegration/qqmlintegration.h \
  C:/Qt/6.11.0/mingw_64/include/QtQml/qqmlerror.h \
- C:/Qt/6.11.0/mingw_64/include/QtQml/qqmlabstracturlinterceptor.h
+ C:/Qt/6.11.0/mingw_64/include/QtQml/qqmlabstracturlinterceptor.h \
+ C:/Qt/6.11.0/mingw_64/include/QtQml/QQmlContext \
+ C:/Qt/6.11.0/mingw_64/include/QtQml/qqmlcontext.h \
+ C:\Users\user\Documents\GitHub\system_resource_monitor\sysmonitor.h \
+ C:/Qt/6.11.0/mingw_64/include/QtCore/QObject \
+ C:/Qt/6.11.0/mingw_64/include/QtCore/QTimer \
+ C:/Qt/6.11.0/mingw_64/include/QtCore/qtimer.h

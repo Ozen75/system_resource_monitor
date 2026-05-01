@@ -198,11 +198,26 @@ CMakeFiles/appsystem_resource_monitor.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-D
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appsystem_resource_monitor.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_system_resource_monitor.cpp.s"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\.qt\rcc\qrc_qmake_system_resource_monitor.cpp -o CMakeFiles\appsystem_resource_monitor.dir\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\.qt\rcc\qrc_qmake_system_resource_monitor.cpp.s
 
+CMakeFiles/appsystem_resource_monitor.dir/sysmonitor.cpp.obj: CMakeFiles/appsystem_resource_monitor.dir/flags.make
+CMakeFiles/appsystem_resource_monitor.dir/sysmonitor.cpp.obj: CMakeFiles/appsystem_resource_monitor.dir/includes_CXX.rsp
+CMakeFiles/appsystem_resource_monitor.dir/sysmonitor.cpp.obj: C:/Users/user/Documents/GitHub/system_resource_monitor/sysmonitor.cpp
+CMakeFiles/appsystem_resource_monitor.dir/sysmonitor.cpp.obj: CMakeFiles/appsystem_resource_monitor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/appsystem_resource_monitor.dir/sysmonitor.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appsystem_resource_monitor.dir/sysmonitor.cpp.obj -MF CMakeFiles\appsystem_resource_monitor.dir\sysmonitor.cpp.obj.d -o CMakeFiles\appsystem_resource_monitor.dir\sysmonitor.cpp.obj -c C:\Users\user\Documents\GitHub\system_resource_monitor\sysmonitor.cpp
+
+CMakeFiles/appsystem_resource_monitor.dir/sysmonitor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appsystem_resource_monitor.dir/sysmonitor.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\user\Documents\GitHub\system_resource_monitor\sysmonitor.cpp > CMakeFiles\appsystem_resource_monitor.dir\sysmonitor.cpp.i
+
+CMakeFiles/appsystem_resource_monitor.dir/sysmonitor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appsystem_resource_monitor.dir/sysmonitor.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\Documents\GitHub\system_resource_monitor\sysmonitor.cpp -o CMakeFiles\appsystem_resource_monitor.dir\sysmonitor.cpp.s
+
 CMakeFiles/appsystem_resource_monitor.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appsystem_resource_monitor_qmlcache_loader.cpp.obj: CMakeFiles/appsystem_resource_monitor.dir/flags.make
 CMakeFiles/appsystem_resource_monitor.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appsystem_resource_monitor_qmlcache_loader.cpp.obj: CMakeFiles/appsystem_resource_monitor.dir/includes_CXX.rsp
 CMakeFiles/appsystem_resource_monitor.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appsystem_resource_monitor_qmlcache_loader.cpp.obj: .rcc/qmlcache/appsystem_resource_monitor_qmlcache_loader.cpp
 CMakeFiles/appsystem_resource_monitor.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appsystem_resource_monitor_qmlcache_loader.cpp.obj: CMakeFiles/appsystem_resource_monitor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/appsystem_resource_monitor.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appsystem_resource_monitor_qmlcache_loader.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/appsystem_resource_monitor.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appsystem_resource_monitor_qmlcache_loader.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appsystem_resource_monitor.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appsystem_resource_monitor_qmlcache_loader.cpp.obj -MF CMakeFiles\appsystem_resource_monitor.dir\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\.rcc\qmlcache\appsystem_resource_monitor_qmlcache_loader.cpp.obj.d -o CMakeFiles\appsystem_resource_monitor.dir\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\.rcc\qmlcache\appsystem_resource_monitor_qmlcache_loader.cpp.obj -c C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\.rcc\qmlcache\appsystem_resource_monitor_qmlcache_loader.cpp
 
 CMakeFiles/appsystem_resource_monitor.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appsystem_resource_monitor_qmlcache_loader.cpp.i: cmake_force
@@ -217,7 +232,7 @@ CMakeFiles/appsystem_resource_monitor.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-D
 CMakeFiles/appsystem_resource_monitor.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appsystem_resource_monitor_Main_qml.cpp.obj: CMakeFiles/appsystem_resource_monitor.dir/includes_CXX.rsp
 CMakeFiles/appsystem_resource_monitor.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appsystem_resource_monitor_Main_qml.cpp.obj: .rcc/qmlcache/appsystem_resource_monitor_Main_qml.cpp
 CMakeFiles/appsystem_resource_monitor.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appsystem_resource_monitor_Main_qml.cpp.obj: CMakeFiles/appsystem_resource_monitor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/appsystem_resource_monitor.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appsystem_resource_monitor_Main_qml.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/appsystem_resource_monitor.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appsystem_resource_monitor_Main_qml.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appsystem_resource_monitor.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appsystem_resource_monitor_Main_qml.cpp.obj -MF CMakeFiles\appsystem_resource_monitor.dir\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\.rcc\qmlcache\appsystem_resource_monitor_Main_qml.cpp.obj.d -o CMakeFiles\appsystem_resource_monitor.dir\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\.rcc\qmlcache\appsystem_resource_monitor_Main_qml.cpp.obj -c C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\.rcc\qmlcache\appsystem_resource_monitor_Main_qml.cpp
 
 CMakeFiles/appsystem_resource_monitor.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appsystem_resource_monitor_Main_qml.cpp.i: cmake_force
@@ -232,7 +247,7 @@ CMakeFiles/appsystem_resource_monitor.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-D
 CMakeFiles/appsystem_resource_monitor.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appsystem_resource_monitor_raw_qml_0.cpp.obj: CMakeFiles/appsystem_resource_monitor.dir/includes_CXX.rsp
 CMakeFiles/appsystem_resource_monitor.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appsystem_resource_monitor_raw_qml_0.cpp.obj: .qt/rcc/qrc_appsystem_resource_monitor_raw_qml_0.cpp
 CMakeFiles/appsystem_resource_monitor.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appsystem_resource_monitor_raw_qml_0.cpp.obj: CMakeFiles/appsystem_resource_monitor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/appsystem_resource_monitor.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appsystem_resource_monitor_raw_qml_0.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/appsystem_resource_monitor.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appsystem_resource_monitor_raw_qml_0.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appsystem_resource_monitor.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appsystem_resource_monitor_raw_qml_0.cpp.obj -MF CMakeFiles\appsystem_resource_monitor.dir\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\.qt\rcc\qrc_appsystem_resource_monitor_raw_qml_0.cpp.obj.d -o CMakeFiles\appsystem_resource_monitor.dir\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\.qt\rcc\qrc_appsystem_resource_monitor_raw_qml_0.cpp.obj -c C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\.qt\rcc\qrc_appsystem_resource_monitor_raw_qml_0.cpp
 
 CMakeFiles/appsystem_resource_monitor.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appsystem_resource_monitor_raw_qml_0.cpp.i: cmake_force
@@ -249,6 +264,7 @@ appsystem_resource_monitor_OBJECTS = \
 "CMakeFiles/appsystem_resource_monitor.dir/main.cpp.obj" \
 "CMakeFiles/appsystem_resource_monitor.dir/appsystem_resource_monitor_qmltyperegistrations.cpp.obj" \
 "CMakeFiles/appsystem_resource_monitor.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_system_resource_monitor.cpp.obj" \
+"CMakeFiles/appsystem_resource_monitor.dir/sysmonitor.cpp.obj" \
 "CMakeFiles/appsystem_resource_monitor.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appsystem_resource_monitor_qmlcache_loader.cpp.obj" \
 "CMakeFiles/appsystem_resource_monitor.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appsystem_resource_monitor_Main_qml.cpp.obj" \
 "CMakeFiles/appsystem_resource_monitor.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appsystem_resource_monitor_raw_qml_0.cpp.obj"
@@ -260,6 +276,7 @@ appsystem_resource_monitor.exe: CMakeFiles/appsystem_resource_monitor.dir/appsys
 appsystem_resource_monitor.exe: CMakeFiles/appsystem_resource_monitor.dir/main.cpp.obj
 appsystem_resource_monitor.exe: CMakeFiles/appsystem_resource_monitor.dir/appsystem_resource_monitor_qmltyperegistrations.cpp.obj
 appsystem_resource_monitor.exe: CMakeFiles/appsystem_resource_monitor.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_system_resource_monitor.cpp.obj
+appsystem_resource_monitor.exe: CMakeFiles/appsystem_resource_monitor.dir/sysmonitor.cpp.obj
 appsystem_resource_monitor.exe: CMakeFiles/appsystem_resource_monitor.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appsystem_resource_monitor_qmlcache_loader.cpp.obj
 appsystem_resource_monitor.exe: CMakeFiles/appsystem_resource_monitor.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appsystem_resource_monitor_Main_qml.cpp.obj
 appsystem_resource_monitor.exe: CMakeFiles/appsystem_resource_monitor.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appsystem_resource_monitor_raw_qml_0.cpp.obj
@@ -274,7 +291,7 @@ appsystem_resource_monitor.exe: C:/Qt/6.11.0/mingw_64/lib/libQt6EntryPoint.a
 appsystem_resource_monitor.exe: CMakeFiles/appsystem_resource_monitor.dir/linkLibs.rsp
 appsystem_resource_monitor.exe: CMakeFiles/appsystem_resource_monitor.dir/objects1.rsp
 appsystem_resource_monitor.exe: CMakeFiles/appsystem_resource_monitor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable appsystem_resource_monitor.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable appsystem_resource_monitor.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\appsystem_resource_monitor.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

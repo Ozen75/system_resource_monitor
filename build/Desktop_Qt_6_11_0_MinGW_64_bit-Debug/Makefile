@@ -575,6 +575,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\appsystem_resource_monitor.dir\build.make CMakeFiles/appsystem_resource_monitor.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+sysmonitor.obj: sysmonitor.cpp.obj
+.PHONY : sysmonitor.obj
+
+# target to build an object file
+sysmonitor.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appsystem_resource_monitor.dir\build.make CMakeFiles/appsystem_resource_monitor.dir/sysmonitor.cpp.obj
+.PHONY : sysmonitor.cpp.obj
+
+sysmonitor.i: sysmonitor.cpp.i
+.PHONY : sysmonitor.i
+
+# target to preprocess a source file
+sysmonitor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appsystem_resource_monitor.dir\build.make CMakeFiles/appsystem_resource_monitor.dir/sysmonitor.cpp.i
+.PHONY : sysmonitor.cpp.i
+
+sysmonitor.s: sysmonitor.cpp.s
+.PHONY : sysmonitor.s
+
+# target to generate assembly for a file
+sysmonitor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appsystem_resource_monitor.dir\build.make CMakeFiles/appsystem_resource_monitor.dir/sysmonitor.cpp.s
+.PHONY : sysmonitor.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -627,6 +651,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... sysmonitor.obj
+	@echo ... sysmonitor.i
+	@echo ... sysmonitor.s
 .PHONY : help
 
 
