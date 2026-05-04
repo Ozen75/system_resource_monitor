@@ -6,7 +6,7 @@ ApplicationWindow {
     visible: true
     width: 400
     height: 500
-    title: "System Monitor Pro"
+    title: "System Monitoring"
     color: "#1e1e2e"
 
     ColumnLayout {
@@ -91,13 +91,6 @@ ApplicationWindow {
         }
 
         Item { Layout.fillHeight: true }
-
-        Text {
-            text: "Status: Monitoring Active"
-            color: "#a6adc8"
-            font.pixelSize: 12
-            Layout.alignment: Qt.AlignHCenter
-        }
     }
 
     // Data Mock-up

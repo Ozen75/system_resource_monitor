@@ -84,14 +84,6 @@
                             "functionName": "height",
                             "line": 85,
                             "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 31,
-                            "durationMicroseconds": 0,
-                            "functionName": "alignment",
-                            "line": 99,
-                            "message": ""
                         }
                     ],
                     "filePath": "C:/Users/user/Documents/GitHub/system_resource_monitor/Main.qml"
