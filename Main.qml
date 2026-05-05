@@ -31,14 +31,17 @@ ApplicationWindow {
                 Text { text: "CPU Usage"; color: "#fab387"; font.pixelSize: 16 }
                 Item { Layout.fillWidth: true }
                 Text {
-                    text: cpuValue.toFixed(1) + "%"
+                    text: backend.cpuValue.toFixed(1) + "%"
                     color: "white"; font.pixelSize: 16
                 }
             }
 
             ProgressBar {
                 id: cpuBar
-                value: cpuValue / 100
+                value: backend.cpuValue / 100
+                Behavior on value {
+                    NumberAnimation { duration: 500; easing.type: Easing.OutCubic }
+                }
                 Layout.fillWidth: true
                 background: Rectangle {
                     implicitHeight: 12
@@ -73,6 +76,9 @@ ApplicationWindow {
             ProgressBar {
                 id: ramBar
                 value: backend.ramValue / 100
+                Behavior on value {
+                    NumberAnimation { duration: 500; easing.type: Easing.OutCubic }
+                }
                 Layout.fillWidth: true
                 background: Rectangle {
                     implicitHeight: 12
@@ -94,6 +100,6 @@ ApplicationWindow {
     }
 
     // Data Mock-up
-    property double cpuValue: 45.5
-    property double ramValue: 62.1
+    // property double cpuValue: 45.5
+    // property double ramValue: 62.1
 }

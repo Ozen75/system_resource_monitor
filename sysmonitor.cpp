@@ -10,7 +10,7 @@ SystemMonitor::SystemMonitor(QObject *parent) : QObject(parent)
     updateStats();
 }
 
-uint64_t fileTimeToUint64(const FILETIME& ft) {
+uint64_t SystemMonitor::fileTimeToUint64(const FILETIME& ft) {
     return (static_cast<uint64_t>(ft.dwHighDateTime) << 32) | ft.dwLowDateTime;
 }
 

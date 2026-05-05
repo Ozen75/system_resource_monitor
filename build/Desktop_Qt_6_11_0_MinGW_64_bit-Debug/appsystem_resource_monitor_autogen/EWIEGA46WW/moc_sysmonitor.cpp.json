@@ -2,7 +2,7 @@
     "classes": [
         {
             "className": "SystemMonitor",
-            "lineNumber": 7,
+            "lineNumber": 9,
             "object": true,
             "properties": [
                 {
@@ -10,11 +10,28 @@
                     "designable": true,
                     "final": false,
                     "index": 0,
-                    "lineNumber": 10,
+                    "lineNumber": 12,
                     "name": "ramValue",
                     "notify": "ramValueChanged",
                     "override": false,
                     "read": "ramValue",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "double",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 13,
+                    "name": "cpuValue",
+                    "notify": "cpuValueChanged",
+                    "override": false,
+                    "read": "cpuValue",
                     "required": false,
                     "scriptable": true,
                     "stored": true,
@@ -28,16 +45,23 @@
                 {
                     "access": "public",
                     "index": 0,
-                    "lineNumber": 18,
+                    "lineNumber": 22,
                     "name": "ramValueChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 23,
+                    "name": "cpuValueChanged",
                     "returnType": "void"
                 }
             ],
             "slots": [
                 {
                     "access": "private",
-                    "index": 1,
-                    "lineNumber": 21,
+                    "index": 2,
+                    "lineNumber": 26,
                     "name": "updateStats",
                     "returnType": "void"
                 }
