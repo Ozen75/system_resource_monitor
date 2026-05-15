@@ -1125,14 +1125,23 @@ appsystem_resource_monitor_autogen/timestamp: \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/guiddef.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/handleapi.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/heapapi.h \
+	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/ifdef.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/imm.h \
+	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/in6addr.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/inaddr.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/interlockedapi.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/ioapiset.h \
+	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/ipexport.h \
+	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/iphlpapi.h \
+	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/ipifcons.h \
+	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/ipmib.h \
+	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/iprtrmib.h \
+	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/iptypes.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/jobapi.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/joystickapi.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/ktmtypes.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/libloaderapi.h \
+	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/lmcons.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/locale.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/lzexpand.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/mciapi.h \
@@ -1145,15 +1154,20 @@ appsystem_resource_monitor_autogen/timestamp: \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/mmiscapi2.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/mmsyscom.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/mmsystem.h \
+	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/mprapi.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/msxml.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/namedpipeapi.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/namespaceapi.h \
+	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/naptypes.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/nb30.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/ncrypt.h \
+	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/netioapi.h \
+	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/nldef.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/oaidl.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/objbase.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/objidl.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/objidlbase.h \
+	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/ocidl.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/ole2.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/oleauto.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/oleidl.h \
@@ -1170,6 +1184,7 @@ appsystem_resource_monitor_autogen/timestamp: \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/psdk_inc/_ip_mreq1.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/psdk_inc/_ip_types.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/psdk_inc/_socket_types.h \
+	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/psdk_inc/_ws1_undef.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/psdk_inc/_wsa_errnos.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/psdk_inc/_wsadata.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/psdk_inc/_xmitfile.h \
@@ -1183,6 +1198,8 @@ appsystem_resource_monitor_autogen/timestamp: \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/pthread_signal.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/pthread_time.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/pthread_unistd.h \
+	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/qos.h \
+	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/ras.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/realtimeapiset.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/reason.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/rpc.h \
@@ -1218,12 +1235,15 @@ appsystem_resource_monitor_autogen/timestamp: \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/sys/types.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/sysinfoapi.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/systemtopologyapi.h \
+	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/tcpestats.h \
+	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/tcpmib.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/threadpoolapiset.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/threadpoollegacyapiset.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/timeapi.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/timezoneapi.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/tvout.h \
+	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/udpmib.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/unknwn.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/unknwnbase.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/urlmon.h \
@@ -1249,12 +1269,14 @@ appsystem_resource_monitor_autogen/timestamp: \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/winscard.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/winsmcrd.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/winsock.h \
+	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/winsock2.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/winspool.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/winsvc.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/winuser.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/winver.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wnnc.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wow64apiset.h \
+	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/ws2def.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wtypes.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wtypesbase.h \
 	C:/Users/user/Documents/GitHub/system_resource_monitor/CMakeLists.txt \

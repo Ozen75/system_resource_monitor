@@ -96,6 +96,43 @@ ApplicationWindow {
             }
         }
 
+        // Network
+        ColumnLayout {
+            spacing: 10
+            Layout.fillWidth: true
+
+            RowLayout {
+                Text { text: "Network Usage"; color: "#fab387"; font.pixelSize: 16 }
+                Item { Layout.fillWidth: true }
+                Text {
+                    text: backend.netValue.toFixed(1) + "%"
+                    color: "white"; font.pixelSize: 16
+                }
+            }
+
+            ProgressBar {
+                id: netBar
+                value: backend.netValue / 100
+                Behavior on value {
+                    NumberAnimation { duration: 500; easing.type: Easing.OutCubic }
+                }
+                Layout.fillWidth: true
+                background: Rectangle {
+                    implicitHeight: 12
+                    color: "#313244"
+                    radius: 6
+                }
+                contentItem: Item {
+                    Rectangle {
+                        width: netBar.visualPosition * parent.width
+                        height: parent.height
+                        radius: 6
+                        color: "#fab387"
+                    }
+                }
+            }
+        }
+
         Item { Layout.fillHeight: true }
     }
 

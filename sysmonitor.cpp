@@ -16,6 +16,7 @@ uint64_t SystemMonitor::fileTimeToUint64(const FILETIME& ft) {
 
 void SystemMonitor::updateStats()
 {
+    // Mengambil data CPU
     FILETIME idleTime, kernelTime, userTime;
     if (GetSystemTimes(&idleTime, &kernelTime, &userTime)) {
 
@@ -40,7 +41,7 @@ void SystemMonitor::updateStats()
         m_prevKernelTime = currentKernel;
         m_prevUserTime = currentUser;
     }
-    // Mengambil data RAM menggunakan Windows API
+    // Mengambil data RAM
     MEMORYSTATUSEX memInfo;
     memInfo.dwLength = sizeof(MEMORYSTATUSEX);
     GlobalMemoryStatusEx(&memInfo);
@@ -52,5 +53,40 @@ void SystemMonitor::updateStats()
         m_ramValue = currentRam;
         emit ramValueChanged(); // Kirim sinyal ke QML agar UI update
     }
+
+    // Mengambil data traffic/bandwith internet
+    ULONG bufferSize = 0;
+    // Mengambil tabel semua interface jaringan (WiFi, Ethernet, dll)
+    GetIfTable(nullptr, &bufferSize, FALSE);
+    MIB_IFTABLE* pIfTable = (MIB_IFTABLE*)malloc(bufferSize);
+
+    if (GetIfTable(pIfTable, &bufferSize, FALSE) == NO_ERROR) {
+        long long currentInBytes = 0;
+        long long currentOutBytes = 0;
+
+        for (UINT i = 0; i < pIfTable->dwNumEntries; i++) {
+            // Kita hanya menghitung interface yang aktif dan bukan loopback
+            if (pIfTable->table[i].dwType != IF_TYPE_SOFTWARE_LOOPBACK) {
+                currentInBytes += pIfTable->table[i].dwInOctets;
+                currentOutBytes += pIfTable->table[i].dwOutOctets;
+            }
+        }
+
+        // Hitung selisih (Delta) untuk mendapatkan Byte per Second (Bps)
+        double downSpeedBps = currentInBytes - m_prevInBytes;
+        double upSpeedBps = currentOutBytes - m_prevOutBytes;
+
+        // Konversi ke Mbps (Megabit per second)
+        // (Byte * 8 bit) / 1.000.000
+        m_downloadSpeed = (downSpeedBps * 8) / 1000000.0;
+        m_uploadSpeed = (upSpeedBps * 8) / 1000000.0;
+
+        // Simpan untuk perhitungan detik berikutnya
+        m_prevInBytes = currentInBytes;
+        m_prevOutBytes = currentOutBytes;
+
+        emit netValueChanged();
+    }
+    free(pIfTable);
 }
 

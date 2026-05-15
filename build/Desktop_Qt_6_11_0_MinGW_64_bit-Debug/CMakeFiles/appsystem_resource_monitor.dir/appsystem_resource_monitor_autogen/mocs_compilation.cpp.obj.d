@@ -569,6 +569,28 @@ CMakeFiles/appsystem_resource_monitor.dir/appsystem_resource_monitor_autogen/moc
  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/winsvc.h \
  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/mcx.h \
  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/imm.h \
+ C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/winsock2.h \
+ C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/psdk_inc/_ws1_undef.h \
+ C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/ws2def.h \
+ C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/qos.h \
+ C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/iphlpapi.h \
+ C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/iprtrmib.h \
+ C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/mprapi.h \
+ C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/lmcons.h \
+ C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/ras.h \
+ C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/in6addr.h \
+ C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/naptypes.h \
+ C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/ocidl.h \
+ C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/ipmib.h \
+ C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/nldef.h \
+ C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/ipifcons.h \
+ C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/udpmib.h \
+ C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/tcpmib.h \
+ C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/ipexport.h \
+ C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/iptypes.h \
+ C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/ifdef.h \
+ C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/tcpestats.h \
+ C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/netioapi.h \
  C:/Qt/6.11.0/mingw_64/include/QtCore/qtmochelpers.h \
  C:/Qt/6.11.0/mingw_64/include/QtCore/qtmocconstants.h \
  C:/Qt/6.11.0/mingw_64/include/QtCore/q20algorithm.h
