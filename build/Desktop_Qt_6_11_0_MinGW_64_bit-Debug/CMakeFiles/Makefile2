@@ -96,10 +96,10 @@ clean: CMakeFiles/appsystem_resource_monitor_autogen.dir/clean
 
 # All Build rule for target.
 CMakeFiles/appsystem_resource_monitor.dir/all: CMakeFiles/appsystem_resource_monitor_copy_res.dir/all
-CMakeFiles/appsystem_resource_monitor.dir/all: CMakeFiles/appsystem_resource_monitor_copy_qml.dir/all
-CMakeFiles/appsystem_resource_monitor.dir/all: CMakeFiles/generate_qmlls_build_ini_file.dir/all
-CMakeFiles/appsystem_resource_monitor.dir/all: CMakeFiles/appsystem_resource_monitor_autogen.dir/all
 CMakeFiles/appsystem_resource_monitor.dir/all: CMakeFiles/appsystem_resource_monitor_autogen_timestamp_deps.dir/all
+CMakeFiles/appsystem_resource_monitor.dir/all: CMakeFiles/appsystem_resource_monitor_autogen.dir/all
+CMakeFiles/appsystem_resource_monitor.dir/all: CMakeFiles/generate_qmlls_build_ini_file.dir/all
+CMakeFiles/appsystem_resource_monitor.dir/all: CMakeFiles/appsystem_resource_monitor_copy_qml.dir/all
 CMakeFiles/appsystem_resource_monitor.dir/all: CMakeFiles/appsystem_resource_monitor_qmlimportscan.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\appsystem_resource_monitor.dir\build.make CMakeFiles/appsystem_resource_monitor.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\appsystem_resource_monitor.dir\build.make CMakeFiles/appsystem_resource_monitor.dir/build
@@ -545,8 +545,8 @@ CMakeFiles/appsystem_resource_monitor_qmlimportscan.dir/clean:
 
 # All Build rule for target.
 CMakeFiles/appsystem_resource_monitor_autogen_timestamp_deps.dir/all: CMakeFiles/appsystem_resource_monitor_copy_res.dir/all
-CMakeFiles/appsystem_resource_monitor_autogen_timestamp_deps.dir/all: CMakeFiles/appsystem_resource_monitor_copy_qml.dir/all
 CMakeFiles/appsystem_resource_monitor_autogen_timestamp_deps.dir/all: CMakeFiles/generate_qmlls_build_ini_file.dir/all
+CMakeFiles/appsystem_resource_monitor_autogen_timestamp_deps.dir/all: CMakeFiles/appsystem_resource_monitor_copy_qml.dir/all
 CMakeFiles/appsystem_resource_monitor_autogen_timestamp_deps.dir/all: CMakeFiles/appsystem_resource_monitor_qmlimportscan.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\appsystem_resource_monitor_autogen_timestamp_deps.dir\build.make CMakeFiles/appsystem_resource_monitor_autogen_timestamp_deps.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\appsystem_resource_monitor_autogen_timestamp_deps.dir\build.make CMakeFiles/appsystem_resource_monitor_autogen_timestamp_deps.dir/build

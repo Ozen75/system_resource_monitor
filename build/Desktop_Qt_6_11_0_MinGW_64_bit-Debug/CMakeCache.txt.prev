@@ -322,6 +322,9 @@ Qt6Core_DIR:PATH=C:/Qt/6.11.0/mingw_64/lib/cmake/Qt6Core
 //The directory containing a CMake configuration file for Qt6EntryPointPrivate.
 Qt6EntryPointPrivate_DIR:PATH=C:/Qt/6.11.0/mingw_64/lib/cmake/Qt6EntryPointPrivate
 
+//The directory containing a CMake configuration file for Qt6Graphs.
+Qt6Graphs_DIR:PATH=C:/Qt/6.11.0/mingw_64/lib/cmake/Qt6Graphs
+
 //The directory containing a CMake configuration file for Qt6GuiTools.
 Qt6GuiTools_DIR:PATH=C:/Qt/6.11.0/mingw_64/lib/cmake/Qt6GuiTools
 
@@ -358,11 +361,32 @@ Qt6QmlWorkerScript_DIR:PATH=C:/Qt/6.11.0/mingw_64/lib/cmake/Qt6QmlWorkerScript
 //The directory containing a CMake configuration file for Qt6Qml.
 Qt6Qml_DIR:PATH=C:/Qt/6.11.0/mingw_64/lib/cmake/Qt6Qml
 
+//The directory containing a CMake configuration file for Qt6Quick3DRuntimeRender.
+Qt6Quick3DRuntimeRender_DIR:PATH=C:/Qt/6.11.0/mingw_64/lib/cmake/Qt6Quick3DRuntimeRender
+
+//The directory containing a CMake configuration file for Qt6Quick3DTools.
+Qt6Quick3DTools_DIR:PATH=C:/Qt/6.11.0/mingw_64/lib/cmake/Qt6Quick3DTools
+
+//The directory containing a CMake configuration file for Qt6Quick3DUtils.
+Qt6Quick3DUtils_DIR:PATH=C:/Qt/6.11.0/mingw_64/lib/cmake/Qt6Quick3DUtils
+
+//The directory containing a CMake configuration file for Qt6Quick3D.
+Qt6Quick3D_DIR:PATH=C:/Qt/6.11.0/mingw_64/lib/cmake/Qt6Quick3D
+
+//The directory containing a CMake configuration file for Qt6QuickShapes.
+Qt6QuickShapes_DIR:PATH=C:/Qt/6.11.0/mingw_64/lib/cmake/Qt6QuickShapes
+
 //The directory containing a CMake configuration file for Qt6QuickTools.
 Qt6QuickTools_DIR:PATH=C:/Qt/6.11.0/mingw_64/lib/cmake/Qt6QuickTools
 
 //The directory containing a CMake configuration file for Qt6Quick.
 Qt6Quick_DIR:PATH=C:/Qt/6.11.0/mingw_64/lib/cmake/Qt6Quick
+
+//The directory containing a CMake configuration file for Qt6ShaderToolsTools.
+Qt6ShaderToolsTools_DIR:PATH=C:/Qt/6.11.0/mingw_64/lib/cmake/Qt6ShaderToolsTools
+
+//The directory containing a CMake configuration file for Qt6ShaderTools.
+Qt6ShaderTools_DIR:PATH=C:/Qt/6.11.0/mingw_64/lib/cmake/Qt6ShaderTools
 
 //The directory containing a CMake configuration file for Qt6TaskTree.
 Qt6TaskTree_DIR:PATH=C:/Qt/6.11.0/mingw_64/lib/cmake/Qt6TaskTree
@@ -802,6 +826,30 @@ QT_FEATURE_glib:INTERNAL=OFF
 QT_FEATURE_glibc_fortify_source:INTERNAL=OFF
 //Qt feature: graphicsframecapture (from target Qt6::Gui)
 QT_FEATURE_graphicsframecapture:INTERNAL=OFF
+//Qt feature: graphs_2d (from target Qt6::Graphs)
+QT_FEATURE_graphs_2d:INTERNAL=ON
+//Qt feature: graphs_2d_area (from target Qt6::Graphs)
+QT_FEATURE_graphs_2d_area:INTERNAL=ON
+//Qt feature: graphs_2d_bar (from target Qt6::Graphs)
+QT_FEATURE_graphs_2d_bar:INTERNAL=ON
+//Qt feature: graphs_2d_custom (from target Qt6::Graphs)
+QT_FEATURE_graphs_2d_custom:INTERNAL=ON
+//Qt feature: graphs_2d_donut_pie (from target Qt6::Graphs)
+QT_FEATURE_graphs_2d_donut_pie:INTERNAL=ON
+//Qt feature: graphs_2d_line (from target Qt6::Graphs)
+QT_FEATURE_graphs_2d_line:INTERNAL=ON
+//Qt feature: graphs_2d_scatter (from target Qt6::Graphs)
+QT_FEATURE_graphs_2d_scatter:INTERNAL=ON
+//Qt feature: graphs_2d_spline (from target Qt6::Graphs)
+QT_FEATURE_graphs_2d_spline:INTERNAL=ON
+//Qt feature: graphs_3d (from target Qt6::Graphs)
+QT_FEATURE_graphs_3d:INTERNAL=ON
+//Qt feature: graphs_3d_bars3d (from target Qt6::Graphs)
+QT_FEATURE_graphs_3d_bars3d:INTERNAL=ON
+//Qt feature: graphs_3d_scatter3d (from target Qt6::Graphs)
+QT_FEATURE_graphs_3d_scatter3d:INTERNAL=ON
+//Qt feature: graphs_3d_surface3d (from target Qt6::Graphs)
+QT_FEATURE_graphs_3d_surface3d:INTERNAL=ON
 //Qt feature: gssapi (from target Qt6::Network)
 QT_FEATURE_gssapi:INTERNAL=OFF
 //Qt feature: gui (from target Qt6::Core)
@@ -1109,6 +1157,8 @@ QT_FEATURE_quick_treeview:INTERNAL=ON
 QT_FEATURE_quick_vectorimage:INTERNAL=ON
 //Qt feature: quick_viewtransitions (from target Qt6::Quick)
 QT_FEATURE_quick_viewtransitions:INTERNAL=ON
+//Qt feature: quickshapes_designhelpers (from target Qt6::QuickShapes)
+QT_FEATURE_quickshapes_designhelpers:INTERNAL=ON
 //Qt feature: raster_64bit (from target Qt6::Gui)
 QT_FEATURE_raster_64bit:INTERNAL=ON
 //Qt feature: raster_fp (from target Qt6::Gui)

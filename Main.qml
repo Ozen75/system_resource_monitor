@@ -1,6 +1,7 @@
 import QtQuick
 import QtQuick.Controls
 import QtQuick.Layouts
+import QtGraphs
 
 ApplicationWindow {
     visible: true
@@ -98,37 +99,50 @@ ApplicationWindow {
 
         // Network
         ColumnLayout {
-            spacing: 10
-            Layout.fillWidth: true
+            // anchors.fill: parent
+            Layout.alignment: Qt.AlignCenter
+            spacing: 15
 
-            RowLayout {
-                Text { text: "Network Usage"; color: "#fab387"; font.pixelSize: 16 }
-                Item { Layout.fillWidth: true }
-                Text {
-                    text: backend.netValue.toFixed(1) + "%"
-                    color: "white"; font.pixelSize: 16
-                }
+            Text {
+                text: "Network Activity Monitor"
+                color: "white"
+                font.bold: true
+                font.pixelSize: 16
+                Layout.alignment: Qt.AlignHCenter
             }
 
-            ProgressBar {
-                id: netBar
-                value: backend.netValue / 100
-                Behavior on value {
-                    NumberAnimation { duration: 500; easing.type: Easing.OutCubic }
-                }
+            // Wadah utama untuk grafik
+            GraphsView {
+                id: networkGraph
                 Layout.fillWidth: true
-                background: Rectangle {
-                    implicitHeight: 12
-                    color: "#313244"
-                    radius: 6
+                Layout.fillHeight: true
+                antialiasing: true
+
+                // Sumbu X (Waktu)
+                axisX: ValueAxis {
+                    min: 0
+                    max: 20 // Menampilkan 20 titik terakhir
+                    labelFormat: "%.0f"
                 }
-                contentItem: Item {
-                    Rectangle {
-                        width: netBar.visualPosition * parent.width
-                        height: parent.height
-                        radius: 6
-                        color: "#fab387"
-                    }
+
+                // Sumbu Y (Speed Mbps)
+                axisY: ValueAxis {
+                    min: 0
+                    max: 100 // Bisa dibuat dinamis nantinya
+                    labelFormat: "%.1f Mbps"
+                }
+
+                LineSeries {
+                    id: downloadSeries
+                    name: "Download"
+                    color: "#89b4fa" // Warna biru pastel
+                    width: 2
+
+                    // Titik dummy awal
+                    XYPoint { x: 0; y: 0 }
+                    XYPoint { x: 5; y: 15 }
+                    XYPoint { x: 10; y: 8 }
+                    XYPoint { x: 20; y: 25 }
                 }
             }
         }

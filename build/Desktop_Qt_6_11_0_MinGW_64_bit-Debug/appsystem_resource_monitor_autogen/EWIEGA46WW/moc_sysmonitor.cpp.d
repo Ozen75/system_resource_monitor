@@ -478,13 +478,11 @@ C:/Users/user/Documents/GitHub/system_resource_monitor/build/Desktop_Qt_6_11_0_M
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/propidl.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/prsht.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/psdk_inc/_fd_types.h \
-  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/psdk_inc/_ip_mreq1.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/psdk_inc/_ip_types.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/psdk_inc/_socket_types.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/psdk_inc/_ws1_undef.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/psdk_inc/_wsa_errnos.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/psdk_inc/_wsadata.h \
-  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/psdk_inc/_xmitfile.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/pshpack1.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/pshpack2.h \

@@ -85,6 +85,8 @@ void SystemMonitor::updateStats()
         m_prevInBytes = currentInBytes;
         m_prevOutBytes = currentOutBytes;
 
+        m_netValue = m_downloadSpeed;
+
         emit netValueChanged();
     }
     free(pIfTable);

@@ -77,6 +77,12 @@ appsystem_resource_monitor_qmltyperegistrations.cpp: C:/Qt/6.11.0/mingw_64/metat
 appsystem_resource_monitor_qmltyperegistrations.cpp: C:/Qt/6.11.0/mingw_64/metatypes/qt6quick_metatypes.json
 appsystem_resource_monitor_qmltyperegistrations.cpp: C:/Qt/6.11.0/mingw_64/metatypes/qt6gui_metatypes.json
 appsystem_resource_monitor_qmltyperegistrations.cpp: C:/Qt/6.11.0/mingw_64/metatypes/qt6opengl_metatypes.json
+appsystem_resource_monitor_qmltyperegistrations.cpp: C:/Qt/6.11.0/mingw_64/metatypes/qt6graphs_metatypes.json
+appsystem_resource_monitor_qmltyperegistrations.cpp: C:/Qt/6.11.0/mingw_64/metatypes/qt6quick3d_metatypes.json
+appsystem_resource_monitor_qmltyperegistrations.cpp: C:/Qt/6.11.0/mingw_64/metatypes/qt6quick3druntimerender_metatypes.json
+appsystem_resource_monitor_qmltyperegistrations.cpp: C:/Qt/6.11.0/mingw_64/metatypes/qt6quick3dutils_metatypes.json
+appsystem_resource_monitor_qmltyperegistrations.cpp: C:/Qt/6.11.0/mingw_64/metatypes/qt6shadertools_metatypes.json
+appsystem_resource_monitor_qmltyperegistrations.cpp: C:/Qt/6.11.0/mingw_64/metatypes/qt6concurrent_metatypes.json
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\user\Documents\GitHub\system_resource_monitor\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic QML type registration for target appsystem_resource_monitor"
 	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.0/mingw_64/bin/qmltyperegistrar.exe --generate-qmltypes=C:/Users/user/Documents/GitHub/system_resource_monitor/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/system_resource_monitor/appsystem_resource_monitor.qmltypes --import-name=system_resource_monitor --major-version=254 --minor-version=254 @C:/Users/user/Documents/GitHub/system_resource_monitor/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/qmltypes/appsystem_resource_monitor_foreign_types.txt -o C:/Users/user/Documents/GitHub/system_resource_monitor/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/appsystem_resource_monitor_qmltyperegistrations.cpp C:/Users/user/Documents/GitHub/system_resource_monitor/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/meta_types/qt6appsystem_resource_monitor_metatypes.json
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/user/Documents/GitHub/system_resource_monitor/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/qmltypes

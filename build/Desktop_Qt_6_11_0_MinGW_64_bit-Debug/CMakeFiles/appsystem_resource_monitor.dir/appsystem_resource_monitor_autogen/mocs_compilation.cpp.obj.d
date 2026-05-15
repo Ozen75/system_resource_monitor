@@ -329,6 +329,8 @@ CMakeFiles/appsystem_resource_monitor.dir/appsystem_resource_monitor_autogen/moc
  C:/Qt/6.11.0/mingw_64/include/QtCore/qabstracteventdispatcher.h \
  C:/Qt/6.11.0/mingw_64/include/QtCore/qeventloop.h \
  C:/Qt/6.11.0/mingw_64/include/QtCore/qdeadlinetimer.h \
+ C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/winsock2.h \
+ C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/_mingw_unicode.h \
  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/windows.h \
  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/sdkddkver.h \
  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/excpt.h \
@@ -340,7 +342,6 @@ CMakeFiles/appsystem_resource_monitor.dir/appsystem_resource_monitor_autogen/moc
  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/concurrencysal.h \
  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/driverspecs.h \
  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/winnt.h \
- C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/_mingw_unicode.h \
  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/apiset.h \
  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/basetsd.h \
@@ -524,15 +525,6 @@ CMakeFiles/appsystem_resource_monitor.dir/appsystem_resource_monitor_autogen/moc
  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/shellapi.h \
  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/winperf.h \
  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/winsock.h \
- C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/_bsd_types.h \
- C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/inaddr.h \
- C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/psdk_inc/_socket_types.h \
- C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/psdk_inc/_fd_types.h \
- C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/psdk_inc/_ip_types.h \
- C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/psdk_inc/_ip_mreq1.h \
- C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/psdk_inc/_wsadata.h \
- C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/psdk_inc/_xmitfile.h \
- C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/psdk_inc/_wsa_errnos.h \
  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wincrypt.h \
  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/bcrypt.h \
  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/ncrypt.h \
@@ -569,9 +561,15 @@ CMakeFiles/appsystem_resource_monitor.dir/appsystem_resource_monitor_autogen/moc
  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/winsvc.h \
  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/mcx.h \
  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/imm.h \
- C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/winsock2.h \
  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/psdk_inc/_ws1_undef.h \
+ C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/_bsd_types.h \
+ C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/inaddr.h \
+ C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/psdk_inc/_socket_types.h \
+ C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/psdk_inc/_fd_types.h \
+ C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/psdk_inc/_ip_types.h \
+ C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/psdk_inc/_wsadata.h \
  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/ws2def.h \
+ C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/psdk_inc/_wsa_errnos.h \
  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/qos.h \
  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/iphlpapi.h \
  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/iprtrmib.h \

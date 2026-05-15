@@ -10,7 +10,7 @@
                             "column": 23,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 13,
+                            "line": 14,
                             "message": ""
                         },
                         {
@@ -18,7 +18,7 @@
                             "column": 31,
                             "durationMicroseconds": 0,
                             "functionName": "alignment",
-                            "line": 22,
+                            "line": 23,
                             "message": ""
                         },
                         {
@@ -26,7 +26,7 @@
                             "column": 27,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 34,
+                            "line": 35,
                             "message": "Cannot access value for name backend"
                         },
                         {
@@ -34,7 +34,7 @@
                             "column": 24,
                             "durationMicroseconds": 0,
                             "functionName": "value",
-                            "line": 41,
+                            "line": 42,
                             "message": "Could not find property \"value\"."
                         },
                         {
@@ -42,7 +42,7 @@
                             "column": 67,
                             "durationMicroseconds": 0,
                             "functionName": "type",
-                            "line": 43,
+                            "line": 44,
                             "message": ""
                         },
                         {
@@ -50,7 +50,7 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "width",
-                            "line": 53,
+                            "line": 54,
                             "message": "Cannot access value for name cpuBar"
                         },
                         {
@@ -58,7 +58,7 @@
                             "column": 33,
                             "durationMicroseconds": 0,
                             "functionName": "height",
-                            "line": 54,
+                            "line": 55,
                             "message": ""
                         },
                         {
@@ -66,7 +66,7 @@
                             "column": 27,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 71,
+                            "line": 72,
                             "message": "Cannot access value for name backend"
                         },
                         {
@@ -74,7 +74,7 @@
                             "column": 24,
                             "durationMicroseconds": 0,
                             "functionName": "value",
-                            "line": 78,
+                            "line": 79,
                             "message": "Could not find property \"value\"."
                         },
                         {
@@ -82,7 +82,7 @@
                             "column": 67,
                             "durationMicroseconds": 0,
                             "functionName": "type",
-                            "line": 80,
+                            "line": 81,
                             "message": ""
                         },
                         {
@@ -90,7 +90,7 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "width",
-                            "line": 90,
+                            "line": 91,
                             "message": "Cannot access value for name ramBar"
                         },
                         {
@@ -98,47 +98,23 @@
                             "column": 33,
                             "durationMicroseconds": 0,
                             "functionName": "height",
-                            "line": 91,
+                            "line": 92,
                             "message": ""
                         },
                         {
-                            "codegenResult": 2,
-                            "column": 27,
-                            "durationMicroseconds": 0,
-                            "functionName": "text",
-                            "line": 108,
-                            "message": "Cannot access value for name backend"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 24,
-                            "durationMicroseconds": 0,
-                            "functionName": "value",
-                            "line": 115,
-                            "message": "Could not find property \"value\"."
-                        },
-                        {
                             "codegenResult": 0,
-                            "column": 67,
+                            "column": 31,
                             "durationMicroseconds": 0,
-                            "functionName": "type",
-                            "line": 117,
+                            "functionName": "alignment",
+                            "line": 139,
                             "message": ""
                         },
                         {
-                            "codegenResult": 2,
-                            "column": 32,
-                            "durationMicroseconds": 0,
-                            "functionName": "width",
-                            "line": 127,
-                            "message": "Cannot access value for name netBar"
-                        },
-                        {
                             "codegenResult": 0,
-                            "column": 33,
+                            "column": 35,
                             "durationMicroseconds": 0,
-                            "functionName": "height",
-                            "line": 128,
+                            "functionName": "alignment",
+                            "line": 147,
                             "message": ""
                         }
                     ],
