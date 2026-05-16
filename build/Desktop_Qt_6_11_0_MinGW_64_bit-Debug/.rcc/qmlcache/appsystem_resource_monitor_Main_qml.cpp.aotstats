@@ -34,7 +34,7 @@
                             "column": 24,
                             "durationMicroseconds": 0,
                             "functionName": "value",
-                            "line": 42,
+                            "line": 43,
                             "message": "Could not find property \"value\"."
                         },
                         {
@@ -42,7 +42,7 @@
                             "column": 67,
                             "durationMicroseconds": 0,
                             "functionName": "type",
-                            "line": 44,
+                            "line": 45,
                             "message": ""
                         },
                         {
@@ -50,7 +50,7 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "width",
-                            "line": 54,
+                            "line": 55,
                             "message": "Cannot access value for name cpuBar"
                         },
                         {
@@ -58,7 +58,7 @@
                             "column": 33,
                             "durationMicroseconds": 0,
                             "functionName": "height",
-                            "line": 55,
+                            "line": 56,
                             "message": ""
                         },
                         {
@@ -66,7 +66,7 @@
                             "column": 27,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 72,
+                            "line": 73,
                             "message": "Cannot access value for name backend"
                         },
                         {
@@ -74,7 +74,7 @@
                             "column": 24,
                             "durationMicroseconds": 0,
                             "functionName": "value",
-                            "line": 79,
+                            "line": 81,
                             "message": "Could not find property \"value\"."
                         },
                         {
@@ -82,7 +82,7 @@
                             "column": 67,
                             "durationMicroseconds": 0,
                             "functionName": "type",
-                            "line": 81,
+                            "line": 83,
                             "message": ""
                         },
                         {
@@ -90,7 +90,7 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "width",
-                            "line": 91,
+                            "line": 93,
                             "message": "Cannot access value for name ramBar"
                         },
                         {
@@ -98,24 +98,40 @@
                             "column": 33,
                             "durationMicroseconds": 0,
                             "functionName": "height",
-                            "line": 92,
+                            "line": 94,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 31,
                             "durationMicroseconds": 0,
-                            "functionName": "alignment",
-                            "line": 139,
+                            "functionName": "fill",
+                            "line": 112,
                             "message": ""
                         },
                         {
-                            "codegenResult": 0,
-                            "column": 35,
+                            "codegenResult": 2,
+                            "column": 27,
                             "durationMicroseconds": 0,
-                            "functionName": "alignment",
-                            "line": 147,
-                            "message": ""
+                            "functionName": "text",
+                            "line": 116,
+                            "message": "Cannot access value for name backend"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 25,
+                            "durationMicroseconds": 0,
+                            "functionName": "target",
+                            "line": 155,
+                            "message": "Cannot access value for name backend"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 17,
+                            "durationMicroseconds": 0,
+                            "functionName": "onNetValueChanged",
+                            "line": 157,
+                            "message": "Cannot access value for name backend"
                         }
                     ],
                     "filePath": "C:/Users/user/Documents/GitHub/system_resource_monitor/Main.qml"
